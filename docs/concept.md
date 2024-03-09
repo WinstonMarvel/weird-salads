@@ -26,6 +26,8 @@
 
 ## Approach: Next.js running inside an electron application
 
+Next.js would be used here because it offers an integrated solution to build backend APIs with its "API Routes" feature thereby negating the need to build a server ourselves. It can be easily packaged into an electron app and already comes with all tooling and setup required.
+
 ### Architecutre
 The chosen approach uses Next.js as framework. The vercel [admin Dashboard theme](https://github.com/vercel/nextjs-postgres-nextauth-tailwindcss-template) licensed MIT will be used as the starting point to get the application up and running quickly.
 
@@ -69,6 +71,8 @@ Jest is the preferred testing library
 ### Other Technical Specifications
 
 //todo: Define and align other specifications with dev team - class names, folder structure, etc
+
+// Define backend routes here and what each route would return
 
 ## Developing the project
 
